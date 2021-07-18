@@ -1,0 +1,6 @@
+f=open(r"C:\Users\Kartavya Verma\Desktop\abc.txt")
+print(f.read())
+print(f.tell())
+print(f.seek(0))
+print(f.read())
+f.close()
